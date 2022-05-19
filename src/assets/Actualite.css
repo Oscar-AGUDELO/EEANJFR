@@ -1,0 +1,129 @@
+.Actualite {
+    margin-top: 3rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+/* Facebook */
+
+
+
+
+.actualite-container-facebook {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+
+}
+
+.player-wrapper-facebook {
+    width: 65%;
+}
+
+.actualite-texte-facebook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    width: 35%;
+}
+
+.actualite-texte-facebook h2 {
+    color: var(--background);
+}
+
+.actualite-texte-facebook p {
+    color: var(--background);
+}
+
+@media screen and (max-width: 1280px) {
+    .Actualite {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .actualite-container-facebook {
+        flex-direction: column;
+    }
+
+    .player-wrapper-facebook {
+        width: 100%;
+    }
+
+    .actualite-texte-facebook {
+        width: 80%;
+    }
+}
+
+
+
+/* Youtube */
+
+.actualite-container-youtube {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+
+}
+.player-wrapper-youtube {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    height: 30.7rem;
+}
+
+.actualite-texte-youtube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    max-width: 35%;
+}
+
+.actualite-texte-youtube h2 {
+    color: var(--background);
+}
+
+.actualite-texte-youtube p {
+    color: var(--background);
+}
+
+@media screen and (max-width: 1280px) {
+    .Actualite {
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+
+    .actualite-container-youtube {
+        flex-direction: column;
+    }
+
+    .player-wrapper-youtube {
+        width: 100%;
+        height: 25.9rem;
+    }
+
+    .actualite-texte-youtube {
+        width: 80%;
+    }
+}

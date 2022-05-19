@@ -9,6 +9,34 @@ import Nav from "./components_Fathers/Nav";
 import Footer from "./components_Fathers/Footer";
 
 const App = () => {
+  // const [apiBdEEANJFR, setApiBdEEANJFR] = useState(null);
+  // const API =
+  //   "https://docs.google.com/spreadsheets/d/e/2PACX-1vSMscbBfAJBfLLv-2X38e7eWpLAz4pk0enqu1BvQkxUiB3UdjsGK93Rz4MxMZw26-ySmBcWPy-ZMwZO/pub?gid=1829392902&single=true&output=csv";
+  //   const convertData = (data) => {
+  //   const json = data.map((line, index) => {
+  //     if (index > 0) {
+  //       let obj = {};
+  //       data[0].forEach((key, j) => (obj = { ...obj, [key]: line[j] }));
+  //       return obj;
+        
+  //     }
+  //   });
+  //   json.shift();
+  //   setApiBdEEANJFR(json);
+  // };
+
+  // useEffect(() => {
+  //   fetch(API)
+  //     .then((result) => result.text())
+  //     .then((text) => papa.parse(text))
+  //     .then((data) => convertData(data.data));
+      
+  // }, []);
+
+  // if(!apiBdEEANJFR){
+  //   return <p>Loading...</p>
+  // }
+  
   return (
     <div className="appDivContainer">
       <div className="appDivContainerBody">

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
 import zLogo from "../assets/zLogo.png";
+import Logo from "../assets/LOGO_RESUMEN_COLOR_FONDO-TRANSPARENTE.png";
 
 function Nav() {
   const [toggleMenu, setToggleMenu] = useState(false);
@@ -25,7 +26,7 @@ function Nav() {
     <div className="navContainer">
       <div className="navHeader">
         <div className="navName">
-          <h1>NAME HERE</h1>
+          <img src={Logo} className="logo" alt="logo" />
         </div>
         <button type="button" onClick={toggleNav} className="navButton">
           {" "}
